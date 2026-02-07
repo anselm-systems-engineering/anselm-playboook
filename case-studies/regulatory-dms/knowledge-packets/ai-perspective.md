@@ -1,4 +1,4 @@
-# KC-004: AI Perspective — Reflection as Co-Pilot
+# KP-004: AI Perspective — Reflection as Co-Pilot
 
 > **Type:** Meta-Analysis  
 > **Status:** Final  

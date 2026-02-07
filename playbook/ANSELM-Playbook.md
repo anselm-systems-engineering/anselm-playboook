@@ -17,7 +17,7 @@ The moment you start following these steps *because they're the steps* rather th
 | Using templates to capture genuine insights | ✅ |
 | Skipping steps that don't apply | ✅ |
 | Adapting patterns to your context | ✅ |
-| Arguing about "correct" KC format | ❌ |
+| Arguing about "correct" KP format | ❌ |
 | Filling templates to satisfy audits | ❌ |
 | Following phases in order "because Playbook says so" | ❌ |
 
@@ -215,7 +215,7 @@ If resuming work:
 
 ```text
 Context from previous session:
-[PASTE SUMMARY OR PREVIOUS KC]
+[PASTE SUMMARY OR PREVIOUS KP]
 
 We left off at: [LAST TOPIC]
 

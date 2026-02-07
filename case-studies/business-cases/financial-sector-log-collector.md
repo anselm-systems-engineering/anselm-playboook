@@ -250,4 +250,4 @@ This is the essence of what became the ANSELM methodology.
 
 ---
 
-*This business case is anonymized. The project was real, delivered by Linux Polska for a major Polish bank in 2025.*
+*This business case is anonymized. The project was real, delivered for a major Polish bank in 2025.*

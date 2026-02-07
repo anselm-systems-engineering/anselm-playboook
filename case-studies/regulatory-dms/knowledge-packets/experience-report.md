@@ -1,4 +1,4 @@
-# KC-001: Experience Report — ANSELM in Practice
+# KP-001: Experience Report — ANSELM in Practice
 
 > **Type:** Experience Report  
 > **Status:** Final  

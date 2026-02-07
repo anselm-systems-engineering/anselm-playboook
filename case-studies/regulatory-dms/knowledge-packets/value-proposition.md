@@ -1,4 +1,4 @@
-# KC-002: Value Proposition — What ANSELM Brings
+# KP-002: Value Proposition — What ANSELM Brings
 
 > **Type:** Analysis  
 > **Status:** Final  

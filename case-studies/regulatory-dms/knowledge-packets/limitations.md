@@ -1,4 +1,4 @@
-# KC-003: Limitations — Identified ANSELM Constraints
+# KP-003: Limitations — Identified ANSELM Constraints
 
 > **Type:** Critical Analysis  
 > **Status:** Final  
@@ -224,7 +224,7 @@ Too little structure          Too much structure
 - "Did you complete all Knowledge Packets for this phase?"
 - "The governance board requires ANSELM compliance"
 - Templates filled with lorem ipsum to pass audits
-- Debates about "correct" KC format instead of domain understanding
+- Debates about "correct" KP format instead of domain understanding
 
 ### 5.3 The Essential Safeguard
 
@@ -234,7 +234,7 @@ The difference:
 
 | Ritual (Dead) | Tool (Alive) |
 | ------------- | ------------ |
-| "We must create KC-001 through KC-005" | "What do we need to understand?" |
+| "We must create KP-001 through KP-005" | "What do we need to understand?" |
 | "The template requires this field" | "What's the right structure for this knowledge?" |
 | "Audit asks for ANSELM artifacts" | "Can we explain our reasoning?" |
 | "Follow the 4 phases in order" | "Where are we stuck? What phase helps?" |

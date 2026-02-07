@@ -1,4 +1,4 @@
-# KC-005: Recommendations — ANSELM Development Proposals
+# KP-005: Recommendations — ANSELM Development Proposals
 
 > **Type:** Strategic Recommendations  
 > **Status:** Final  

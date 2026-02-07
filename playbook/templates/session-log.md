@@ -26,14 +26,14 @@ What we planned to accomplish:
 
 | Artifact | Type | Status |
 | -------- | ---- | ------ |
-| [Name] | KC / Diagram / Document | Draft / Complete |
+| [Name] | KP / Diagram / Document | Draft / Complete |
 
 ## 3. Key Decisions
 
 | Decision | Rationale | Recorded in |
 | -------- | --------- | ----------- |
 | [Decision 1] | [Why] | DR-XXX |
-| [Decision 2] | [Why] | KC-YYY |
+| [Decision 2] | [Why] | KP-YYY |
 
 ## 4. Open Questions
 
