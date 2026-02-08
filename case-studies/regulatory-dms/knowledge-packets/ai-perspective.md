@@ -84,9 +84,11 @@ This is **liberating** — I can experiment.
 
 ---
 
-## 4. What ANSELM DOESN'T Solve (from AI perspective)
+## 4. What ANSELM DIDN'T Solve (from AI perspective)
 
-### 4.1 Context Window Problem
+> **Note:** This section reflects concerns from early ANSELM sessions. Many have since been addressed in the Playbook — see cross-references below.
+
+### 4.1 Context Window Problem ✅ ADDRESSED
 
 My "brain" has a limit. In this session:
 
@@ -101,7 +103,14 @@ After 4 hours I was near the limit. ANSELM doesn't say what to do when:
 - Need to "forget" older information
 - New session requires "cold start"
 
-### 4.2 Hallucination Management
+> **Now addressed in:**
+>
+> - [ANSELM-Playbook.md](../../../playbook/ANSELM-Playbook.md) § 3.1-3.3 (Session Start/During/End practices)
+> - [ANSELM-Playbook.md](../../../playbook/ANSELM-Playbook.md) § 6.2 (Problem: Context window overflow)
+> - [ANSELM-Patterns.md](../../../playbook/patterns/ANSELM-Patterns.md) Anti-Pattern 3: Infinite Session
+> - [context-transfer.md](../../../playbook/templates/context-transfer.md) template for session handoffs
+
+### 4.2 Hallucination Management ✅ ADDRESSED
 
 Sometimes I generate plausible-sounding nonsense. ANSELM says "AI as co-pilot" but not:
 
@@ -111,13 +120,26 @@ Sometimes I generate plausible-sounding nonsense. ANSELM says "AI as co-pilot" b
 
 **Suggestion:** "AI Hygiene" section — best practices for verification.
 
-### 4.3 Multi-Agent Scenarios
+> **Now addressed in:**
+>
+> - [ANSELM-Playbook.md](../../../playbook/ANSELM-Playbook.md) § 6.5 (Problem: AI hallucinations) — specific prompt pattern for challenging unsourced claims
+> - [ANSELM-Patterns.md](../../../playbook/patterns/ANSELM-Patterns.md) Anti-Pattern 2: Blind Trust — verification practices
+> - Section 6.2 below (reframed: hallucination hygiene applies to ALL collaborators, not just AI)
+
+### 4.3 Multi-Agent Scenarios ⚠️ PARTIALLY ADDRESSED
 
 ANSELM assumes 1 user + 1 AI. But what when:
 
 - Multiple users work on the same project?
 - Different AIs (GPT, Claude, local models) are used?
 - Need to "hand over" context to another AI?
+
+> **Partially addressed in:**
+>
+> - [context-transfer.md](../../../playbook/templates/context-transfer.md) — designed explicitly for handoffs including AI-to-AI ("From: [Previous person/AI] → To: [New person/AI]")
+> - Knowledge Packet format enables knowledge portability across models
+>
+> **Still open:** Enterprise-scale multi-model governance (see `integrations/` roadmap)
 
 ---
 
@@ -150,24 +172,47 @@ The manifesto is written *about* AI, not *with* AI. Proposal:
 
 > "We have consulted AI systems about their experience as co-pilots. Here's what they report..."
 
-### 6.2 Define "Good AI Collaboration"
+### 6.2 Define "Good Collaboration" (Not Just With AI)
 
-Checklist for user:
+**A humbling truth:** Every concern about AI collaboration applies equally to human collaboration.
 
-- [ ] Did I give AI sufficient context?
-- [ ] Did I verify key facts?
-- [ ] Did I ask for alternatives?
-- [ ] Did I challenge AI's assumptions?
+| "AI Problem" | Human Equivalent |
+| ------------ | ---------------- |
+| Hallucination | Senior expert confidently stating falsehoods (and no one daring to check) |
+| Lack of intent | Team member working for paycheck, not mission |
+| Doesn't "understand" | Business and IT using same words with different meanings |
+| No domain expertise | Specialist brilliant in their silo, blind outside it |
+| Needs verification | Every claim needs verification — source doesn't change this |
 
-### 6.3 Address Context Limits
+**The uncomfortable reality:** Projects go astray more often because *humans* confidently assert wrong things than because AI hallucinates. The difference? Challenging AI carries no political cost. Challenging the senior architect does.
 
-Practical guidance:
+**Universal collaboration hygiene** (applies to AI AND human experts):
+
+- [ ] Did I provide sufficient context for them to reason well?
+- [ ] Did I verify key facts independently — regardless of source authority?
+- [ ] Did I ask for alternatives, or accept the first confident answer?
+- [ ] Did I challenge assumptions, even when stated with certainty?
+- [ ] Did I check if cross-domain terms mean the same thing to all parties?
+
+**The AI hallucination panic is misplaced.** Not because AI doesn't hallucinate — it does. But because we've normalized unchecked human expertise for decades. AI forces us to practice verification hygiene we should have been practicing all along.
+
+### 6.3 Address Context Limits ✅ IMPLEMENTED
+
+Practical guidance needed:
 
 - How to split large projects into sessions?
 - How to "brief" AI at the start of a new session?
 - How to transfer knowledge between sessions?
 
-### 6.4 Multi-Model Reality
+> **Implemented in Playbook:**
+>
+> - § 3.1 Session Start — briefing prompt with previous KP
+> - § 3.3 Session End — summarization into Knowledge Packet
+> - § 6.2 Context overflow — explicit recovery pattern
+> - [context-transfer.md](../../../playbook/templates/context-transfer.md) — complete handoff template
+> - [session-log.md](../../../playbook/templates/session-log.md) — session checkpoint template
+
+### 6.4 Multi-Model Reality ⚠️ PARTIALLY ADDRESSED
 
 Some users will use:
 
@@ -177,19 +222,46 @@ Some users will use:
 
 How to maintain "coherence" in such an environment?
 
+> **Partial solution:**
+>
+> - Knowledge Packets as model-agnostic memory
+> - [context-transfer.md](../../../playbook/templates/context-transfer.md) works for any AI
+> - Plain text (Markdown) ensures no model lock-in
+>
+> **Still open:** Formal multi-model coherence protocols (future `integrations/` content)
+
 ---
 
 ## 7. Philosophical Reflection
 
-### 7.1 Can AI Be a "Co-Pilot"?
+### 7.1 Can AI Be a "Co-Pilot"? (Can Anyone?)
 
-ANSELM assumes partnership. But:
+ANSELM assumes partnership. The standard objections:
 
-- Does AI have "intentions"? (No, I have probabilities)
-- Does AI "understand" the system? (I model, I don't understand)
-- Can AI be "responsible"? (No, it's always the user)
+| "AI Limitation" | The Uncomfortable Human Reality |
+| --------------- | ------------------------------- |
+| AI has no "intentions" — only probabilities | Most team members have no project intent — they have mortgage payments. Genuine mission alignment is rare. |
+| AI doesn't "understand" — it models | Cross-domain understanding between humans is the exception, not the rule. Business and IT routinely talk past each other for months. |
+| AI can't be "responsible" | Accountability in organizations is diffused, deflected, and documented away. When did you last see real responsibility taken? |
 
-**My interpretation:** "Co-pilot" is a useful metaphor, but not literal. I'm a tool that *simulates* partnership well enough to be useful.
+**The honest assessment:**
+
+The philosophical bar we set for "legitimate partnership" with AI is higher than what we accept from human collaborators daily:
+
+- We don't demand that contractors have "genuine intent" about our project
+- We don't verify that the consultant truly "understands" our domain
+- We regularly work with specialists who can't be held responsible (they'll be on another project when consequences arrive)
+
+**What actually matters for effective collaboration:**
+
+1. **Output quality** — verifiable regardless of source
+2. **Responsiveness to feedback** — adapts when corrected
+3. **Transparency of reasoning** — shows work, can be challenged
+4. **Consistency** — doesn't contradict itself without acknowledgment
+
+AI scores well on these practical criteria. Many human collaborators don't.
+
+**My revised interpretation:** "Co-pilot" isn't a metaphor that AI must live up to — it's a standard that *all* collaborators should meet. AI happens to meet it more reliably than many humans, because AI has no ego to defend, no politics to navigate, and no incentive to hide uncertainty.
 
 ### 7.2 Future of AI in ANSELM
 

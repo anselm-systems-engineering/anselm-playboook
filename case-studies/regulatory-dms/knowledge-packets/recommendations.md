@@ -16,7 +16,7 @@ Based on practical application of ANSELM in this project, I propose **5 key deve
 2. **Integration Story** — How ANSELM works with TOGAF/SysML/SAFe
 3. **Tooling Ecosystem** — Starter kit and community tools
 4. **AI Collaboration Guidelines** — Best practices for working with AI
-5. **Community Building** — Forum, case studies, certification
+5. **Community Building** — Forum, case studies
 
 ---
 
@@ -187,7 +187,6 @@ ANSELM is a lonely website. Practitioners have nowhere to:
 | Discord Server | Low | High | Month 1 |
 | Case Study Template | Medium | High | Month 2 |
 | Monthly Office Hours | Medium | Medium | Month 3 |
-| Practitioner Certification | High | High | Month 6 |
 | Annual Conference | High | High | Year 2 |
 
 ### 6.3 Priority
@@ -211,7 +210,6 @@ gantt
     section Community
     Discord Launch          :c1, 2025-03, 1M
     First Case Studies      :c2, 2025-05, 2M
-    Certification Program   :c3, 2025-09, 3M
     section Tooling
     AI Guidelines           :d1, 2025-04, 1M
     VS Code Extension       :d2, 2025-07, 3M
