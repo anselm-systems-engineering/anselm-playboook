@@ -176,7 +176,7 @@ Every time you make a decision, immediately create a record:
 **What to do instead:**
 
 - Session checkpoints every 60-90 minutes
-- Save Knowledge Packets continuously
+- Save Knowledge Cells continuously
 - Know when to start fresh
 
 ---
@@ -211,7 +211,7 @@ Every time you make a decision, immediately create a record:
 
 **What to do instead:**
 
-- Extract to Knowledge Packets
+- Extract to Knowledge Cells
 - Store in shared repository (Git)
 - Use Context Transfer template
 

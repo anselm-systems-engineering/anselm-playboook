@@ -1,4 +1,4 @@
-# KP-003: Limitations — Identified ANSELM Constraints
+# KC-003: Limitations — Identified ANSELM Constraints
 
 > **Type:** Critical Analysis  
 > **Status:** Final  
@@ -41,7 +41,7 @@ SAFe/DAD ────────┘
 **Unanswered questions:**
 
 - Does ANSELM replace TOGAF ADM?
-- How do Knowledge Packets map to SysML artifacts?
+- How do Knowledge Cells map to SysML artifacts?
 - Can you be "ANSELM-compliant" in a SAFe environment?
 
 **Recommendation:** "ANSELM + X" section with explicit integration guidance.
@@ -90,7 +90,7 @@ But:
 
 | Need | Status |
 | ---- | ------ |
-| Knowledge Packet template | Missing |
+| Knowledge Cell template | Missing |
 | Reasoning Canvas tool | Missing |
 | Semantic graph builder | Missing |
 | Coherence checker | Missing |
@@ -221,10 +221,10 @@ Too little structure          Too much structure
 **Signs that ANSELM has failed:**
 
 - "Are you ANSELM-certified?"
-- "Did you complete all Knowledge Packets for this phase?"
+- "Did you complete all Knowledge Cells for this phase?"
 - "The governance board requires ANSELM compliance"
 - Templates filled with lorem ipsum to pass audits
-- Debates about "correct" KP format instead of domain understanding
+- Debates about "correct" KC format instead of domain understanding
 
 ### 5.3 The Essential Safeguard
 
@@ -234,7 +234,7 @@ The difference:
 
 | Ritual (Dead) | Tool (Alive) |
 | ------------- | ------------ |
-| "We must create KP-001 through KP-005" | "What do we need to understand?" |
+| "We must create KC-001 through KC-005" | "What do we need to understand?" |
 | "The template requires this field" | "What's the right structure for this knowledge?" |
 | "Audit asks for ANSELM artifacts" | "Can we explain our reasoning?" |
 | "Follow the 4 phases in order" | "Where are we stuck? What phase helps?" |

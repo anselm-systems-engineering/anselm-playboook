@@ -98,7 +98,7 @@ Three implementation variants were evaluated:
 
 ### Phase 4: Deliverable Generation (Week 4)
 
-Knowledge Packets → structured documentation:
+Knowledge Cells → structured documentation:
 
 - **HLD (High-Level Design)** — ISO 42010 compliant architecture description
 - **Feasibility Study** — business case with ROI analysis

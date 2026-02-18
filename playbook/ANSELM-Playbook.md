@@ -17,7 +17,7 @@ The moment you start following these steps *because they're the steps* rather th
 | Using templates to capture genuine insights | ✅ |
 | Skipping steps that don't apply | ✅ |
 | Adapting patterns to your context | ✅ |
-| Arguing about "correct" KP format | ❌ |
+| Arguing about "correct" KC format | ❌ |
 | Filling templates to satisfy audits | ❌ |
 | Following phases in order "because Playbook says so" | ❌ |
 
@@ -161,7 +161,7 @@ Act as Devil's Advocate: find 5 reasons why this design will fail.
 
 - Request diagrams (Mermaid, PlantUML)
 - Create tables, matrices
-- Write down decisions in Knowledge Packets
+- Write down decisions in Knowledge Cells
 
 **Prompts:**
 
@@ -215,7 +215,7 @@ If resuming work:
 
 ```text
 Context from previous session:
-[PASTE SUMMARY OR PREVIOUS KP]
+[PASTE SUMMARY OR PREVIOUS KC]
 
 We left off at: [LAST TOPIC]
 
@@ -226,7 +226,7 @@ Continue from where we stopped.
 
 **Every 30-60 minutes:**
 
-- Save key decisions as Knowledge Packets
+- Save key decisions as Knowledge Cells
 - Generate a Mermaid diagram to "checkpoint" understanding
 - Ask AI: "What have we decided so far? What's still open?"
 
@@ -239,7 +239,7 @@ Summarize this session:
 3. Next steps
 4. Context needed for next session
 
-Format as a Knowledge Packet.
+Format as a Knowledge Cell.
 ```
 
 Save the output to `session-log-YYYY-MM-DD.md`
@@ -302,7 +302,7 @@ For each: What would they praise? What would they criticize?
 **When:** Ending a reasoning session
 
 ```text
-Convert our discussion into a Knowledge Packet with:
+Convert our discussion into a Knowledge Cell with:
 - Type: [Decision Record / Analysis / Design Rationale]
 - Context: What prompted this discussion
 - Decision: What we decided
@@ -318,7 +318,7 @@ Templates are available in the [templates/](templates/) directory:
 
 | Template | Purpose | When to Use |
 | -------- | ------- | ----------- |
-| [knowledge-packet.md](templates/knowledge-packet.md) | Universal KP | Any knowledge capture |
+| [knowledge-cell.md](templates/knowledge-cell.md) | Universal KC | Any knowledge capture |
 | [decision-record.md](templates/decision-record.md) | ADR-style | Recording decisions |
 | [session-log.md](templates/session-log.md) | Session summary | End of each session |
 | [project-canvas.md](templates/project-canvas.md) | One-page overview | Project kickoff |
@@ -350,11 +350,11 @@ Go deeper. I need:
 1. Summarize and restart:
 
 ```text
-Summarize everything we've decided into a single Knowledge Packet.
+Summarize everything we've decided into a single Knowledge Cell.
 I'll use this to start a new session.
 ```
 
-1. Use Knowledge Packets as "external memory"
+1. Use Knowledge Cells as "external memory"
 
 ### 6.3 Problem: Diagrams don't match knowledge
 

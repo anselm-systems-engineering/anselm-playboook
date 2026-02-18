@@ -1,4 +1,4 @@
-# KP-005: Recommendations — ANSELM Development Proposals
+# KC-005: Recommendations — ANSELM Development Proposals
 
 > **Type:** Strategic Recommendations  
 > **Status:** Final  
@@ -35,7 +35,7 @@ ANSELM Playbook
 ├── Quick Start (30 min)
 │   ├── Setup: Editor + AI + Mermaid
 │   ├── First Session: Template prompts
-│   └── First Output: Knowledge Packet
+│   └── First Output: Knowledge Cell
 │
 ├── Daily Practices
 │   ├── Morning: Context loading
@@ -73,10 +73,10 @@ Architects work in environments with existing frameworks. They don't know how AN
 | Framework | Relationship with ANSELM | Guidance |
 | --------- | ------------------------ | -------- |
 | **TOGAF** | ANSELM as reasoning layer over ADM | Phase A-D: ANSELM; Phase E-H: TOGAF |
-| **SysML** | SysML as formal view from ANSELM knowledge | Generate SysML from Knowledge Packets |
+| **SysML** | SysML as formal view from ANSELM knowledge | Generate SysML from Knowledge Cells |
 | **ArchiMate** | ArchiMate as visualization layer | Export to ArchiMate via Mermaid |
-| **SAFe** | ANSELM in PI Planning, Enabler Epics | Align Knowledge Packets with Features |
-| **Agile/Scrum** | ANSELM in Refinement, Sprint Planning | Knowledge Packet per User Story |
+| **SAFe** | ANSELM in PI Planning, Enabler Epics | Align Knowledge Cells with Features |
+| **Agile/Scrum** | ANSELM in Refinement, Sprint Planning | Knowledge Cell per User Story |
 
 ### 3.3 Priority
 
@@ -98,7 +98,7 @@ Lack of tools = high entry barrier.
 anselm-starter-kit/
 ├── README.md
 ├── templates/
-│   ├── knowledge-packet.md
+│   ├── knowledge-cell.md
 │   ├── reasoning-session.md
 │   ├── decision-record.md
 │   └── project-canvas.md

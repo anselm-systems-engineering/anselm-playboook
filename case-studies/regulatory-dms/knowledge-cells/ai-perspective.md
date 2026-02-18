@@ -1,4 +1,4 @@
-# KP-004: AI Perspective — Reflection as Co-Pilot
+# KC-004: AI Perspective — Reflection as Co-Pilot
 
 > **Type:** Meta-Analysis  
 > **Status:** Final  
@@ -137,7 +137,7 @@ ANSELM assumes 1 user + 1 AI. But what when:
 > **Partially addressed in:**
 >
 > - [context-transfer.md](../../../playbook/templates/context-transfer.md) — designed explicitly for handoffs including AI-to-AI ("From: [Previous person/AI] → To: [New person/AI]")
-> - Knowledge Packet format enables knowledge portability across models
+> - Knowledge Cell format enables knowledge portability across models
 >
 > **Still open:** Enterprise-scale multi-model governance (see `integrations/` roadmap)
 
@@ -206,8 +206,8 @@ Practical guidance needed:
 
 > **Implemented in Playbook:**
 >
-> - § 3.1 Session Start — briefing prompt with previous KP
-> - § 3.3 Session End — summarization into Knowledge Packet
+> - § 3.1 Session Start — briefing prompt with previous KC
+> - § 3.3 Session End — summarization into Knowledge Cell
 > - § 6.2 Context overflow — explicit recovery pattern
 > - [context-transfer.md](../../../playbook/templates/context-transfer.md) — complete handoff template
 > - [session-log.md](../../../playbook/templates/session-log.md) — session checkpoint template
@@ -224,7 +224,7 @@ How to maintain "coherence" in such an environment?
 
 > **Partial solution:**
 >
-> - Knowledge Packets as model-agnostic memory
+> - Knowledge Cells as model-agnostic memory
 > - [context-transfer.md](../../../playbook/templates/context-transfer.md) works for any AI
 > - Plain text (Markdown) ensures no model lock-in
 >

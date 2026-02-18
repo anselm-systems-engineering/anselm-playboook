@@ -1,4 +1,4 @@
-# KP-002: Value Proposition — What ANSELM Brings
+# KC-002: Value Proposition — What ANSELM Brings
 
 > **Type:** Analysis  
 > **Status:** Final  
@@ -131,7 +131,7 @@ For **BANI** specifically:
 | **Brittle** | Continuous coherence — detect fractures early |
 | **Anxious** | AI as co-pilot — support, not replace humans |
 | **Non-linear** | Conversation as process — not waterfall |
-| **Incomprehensible** | Knowledge Packets — build understanding incrementally |
+| **Incomprehensible** | Knowledge Cells — build understanding incrementally |
 
 ```text
 MBSE 1.0 (1990s-2010s):  Human + Formal tools + Stable environment
@@ -192,7 +192,7 @@ Based on this session:
 Organizations with mature MBSE processes are actually **well-positioned** for ANSELM adoption. ANSELM operates as a **reasoning layer** that precedes formalization:
 
 - Use ANSELM for rapid exploration before committing to SysML
-- Knowledge Packets become input for formal model creation
+- Knowledge Cells become input for formal model creation
 - AI-assisted reasoning reduces costly iteration cycles in expensive tools
 - Existing tooling investments (Cameo, Capella, EA) remain valuable for formalization phase
 
@@ -225,7 +225,7 @@ A candid observation from 20+ years of enterprise architecture consulting:
 ANSELM's **knowledge-first** principle is an antidote to Architecture Theater:
 
 - You can't fake a conversation — either you understand or you don't
-- Knowledge Packets expose gaps immediately ("we don't have this modeled")
+- Knowledge Cells expose gaps immediately ("we don't have this modeled")
 - AI won't let you hide behind meta-model complexity
 - Disposable views mean no more "maintaining the model" as busy-work
 

@@ -75,7 +75,7 @@ flowchart TB
 | - | -------- | ---- | ------ |
 | 1 | [Decision] | [Date] | Accepted |
 
-## 9. Knowledge Packets
+## 9. Knowledge Cells
 
 - [packet-name.md](path/to/packet-name.md) — [Title]
 

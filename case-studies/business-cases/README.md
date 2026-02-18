@@ -4,9 +4,9 @@ Real-world success stories demonstrating ANSELM methodology effectiveness.
 
 ## What's Here
 
-Business cases are **anonymized success references** — they describe outcomes and approach without revealing proprietary details or internal Knowledge Packets.
+Business cases are **anonymized success references** — they describe outcomes and approach without revealing proprietary details or internal Knowledge Cells.
 
-Unlike full case studies (which include complete KP sets), business cases focus on:
+Unlike full case studies (which include complete KC sets), business cases focus on:
 
 - Problem context and complexity
 - Approach taken
@@ -48,7 +48,7 @@ See [CONTRIBUTING.md](../../CONTRIBUTING.md) for submission guidelines.
 
 | Aspect | Business Case | Case Study |
 | ------ | ------------- | ---------- |
-| **Content** | Outcomes and approach | Full Knowledge Packets |
+| **Content** | Outcomes and approach | Full Knowledge Cells |
 | **Detail level** | Executive summary | Working artifacts |
 | **Purpose** | Demonstrate value | Teach methodology |
 | **Sensitivity** | Safe for public sharing | May require anonymization |

@@ -73,17 +73,17 @@ Each new artifact was validated against previous decisions. Contradictions were 
 3. **AI proposed decision frameworks** — Not just options, but how to decide between them
 4. **Meta-reflection added value** — AI's perspective on the process became a case study artifact itself
 
-## Knowledge Packets
+## Knowledge Cells
 
-This case study produced 5 Knowledge Packets:
+This case study produced 5 Knowledge Cells:
 
 | File | Topic | Unique Value |
 | ---- | ----- | ------------ |
-| [experience-report.md](knowledge-packets/experience-report.md) | Experience Report | Session chronology |
-| [value-proposition.md](knowledge-packets/value-proposition.md) | Value Proposition | What ANSELM enables |
-| [limitations.md](knowledge-packets/limitations.md) | Limitations | Critical analysis |
-| [ai-perspective.md](knowledge-packets/ai-perspective.md) | AI Perspective | Meta-reflection from AI |
-| [recommendations.md](knowledge-packets/recommendations.md) | Recommendations | Proposals for ANSELM authors |
+| [experience-report.md](knowledge-cells/experience-report.md) | Experience Report | Session chronology |
+| [value-proposition.md](knowledge-cells/value-proposition.md) | Value Proposition | What ANSELM enables |
+| [limitations.md](knowledge-cells/limitations.md) | Limitations | Critical analysis |
+| [ai-perspective.md](knowledge-cells/ai-perspective.md) | AI Perspective | Meta-reflection from AI |
+| [recommendations.md](knowledge-cells/recommendations.md) | Recommendations | Proposals for ANSELM authors |
 
 ## Lessons Learned
 

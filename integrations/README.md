@@ -7,7 +7,7 @@ This directory will contain guides for integrating ANSELM with existing framewor
 | Framework | Status | Description |
 | --------- | ------ | ----------- |
 | TOGAF ADM | 🔜 Planned | ANSELM as reasoning layer over Architecture Development Method |
-| SysML/UAF | 🔜 Planned | Generating formal models from Knowledge Packets |
+| SysML/UAF | 🔜 Planned | Generating formal models from Knowledge Cells |
 | ArchiMate | 🔜 Planned | Visualization and exchange format |
 | SAFe | 🔜 Planned | ANSELM in Scaled Agile context |
 | Agile/Scrum | 🔜 Planned | ANSELM in sprint ceremonies |

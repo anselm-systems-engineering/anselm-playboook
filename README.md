@@ -49,7 +49,7 @@ anselm-playbook/
 │   ├── patterns/
 │   │   └── ANSELM-Patterns.md   # Patterns & Anti-patterns
 │   └── templates/
-│       ├── knowledge-packet.md
+│       ├── knowledge-cell.md
 │       ├── decision-record.md
 │       ├── session-log.md
 │       ├── project-canvas.md
@@ -58,7 +58,7 @@ anselm-playbook/
 ├── case-studies/
 │   ├── regulatory-dms/          # Full case study (anonymized)
 │   │   ├── README.md
-│   │   └── knowledge-packets/
+│   │   └── knowledge-cells/
 │   │       ├── experience-report.md
 │   │       ├── value-proposition.md
 │   │       ├── limitations.md
@@ -90,7 +90,7 @@ Start with [playbook/ANSELM-Playbook.md](playbook/ANSELM-Playbook.md) — a comp
 
 Copy templates from [playbook/templates/](playbook/templates/) to your project:
 
-- `knowledge-packet.md` — Capture any knowledge
+- `knowledge-cell.md` — Capture any knowledge
 - `decision-record.md` — Document decisions (ADR-style)
 - `session-log.md` — Track AI collaboration sessions
 - `project-canvas.md` — One-page project overview
@@ -103,7 +103,7 @@ Review [case-studies/](case-studies/) for real-world ANSELM applications. Each c
 - Context and constraints
 - How ANSELM was applied
 - Lessons learned
-- Knowledge Packets produced
+- Knowledge Cells produced
 
 ---
 
@@ -119,11 +119,11 @@ Review [case-studies/](case-studies/) for real-world ANSELM applications. Each c
 
 ## The AI Perspective
 
-This repository includes something unique: **Knowledge Packets written by an AI** reflecting on its experience as an ANSELM co-pilot.
+This repository includes something unique: **Knowledge Cells written by an AI** reflecting on its experience as an ANSELM co-pilot.
 
 > "ANSELM is the first manifesto that takes AI seriously as a participant in the systems process. But the manifesto writes about AI in third person. Maybe it's worth asking AI how it feels as a co-pilot?"
 >
-> — From [AI Perspective](case-studies/regulatory-dms/knowledge-packets/ai-perspective.md)
+> — From [AI Perspective](case-studies/regulatory-dms/knowledge-cells/ai-perspective.md)
 
 We believe this meta-reflection adds unique value to the methodology discussion.
 

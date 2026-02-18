@@ -10,7 +10,7 @@
 
 ## 1. Context
 
-[What situation or problem prompted this Knowledge Packet?]
+[What situation or problem prompted this Knowledge Cell?]
 
 ## 2. Content
 
@@ -31,9 +31,9 @@
 - [ ] [Question 1]
 - [ ] [Question 2]
 
-## 5. Related Knowledge Packets
+## 5. Related Knowledge Cells
 
-- [related-packet.md](./related-packet.md) — [relationship]
+- [related-cell.md](./related-cell.md) — [relationship]
 
 ---
 

@@ -13,7 +13,7 @@ We especially welcome real-world case studies. Your case study should include:
 - Context (domain, scale, constraints)
 - How ANSELM was applied
 - What worked / what didn't
-- At least 2 Knowledge Packets
+- At least 2 Knowledge Cells
 
 **Optional:**
 
@@ -34,7 +34,7 @@ If your project is confidential, anonymize it:
 case-studies/
 └── your-case-study/
     ├── README.md           # Overview
-    └── knowledge-packets/
+    └── knowledge-cells/
         ├── xxx.md
         └── yyy.md
 ```
